@@ -1,0 +1,23 @@
+# Build output and local game state
+/target/
+/saves/
+/assets/town.zip
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials, local overrides and logs
+.env
+.env.*
+!.env.example
+*.log
+/ai_config.local.json
+
+# Temporary files
+*.tmp
+*.bak
+*~
